@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Streaming</title>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+
+    <header>
+        <a href="#" class="logo"><span>M</span> Streaming</a>
+        <nav class="navbar">
+            <div class="menu_toggle" class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i> </div> 
+            
+             <a href="index.html">Accueil</a>
+             <a href="#moment">Actus</a>
+             <a href="#action">film</a>
+             <a href="#child">series</a>
+             <a href="#horreur">horreur</a>
+
+        </nav>
+        <div class="icons">
+            
+            <div class="search ">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" name="search" class="input" placeholder="rechercher...">
+                    <button type="submit" class="btnz">
+                        <i class="fas fa-search" id="search-icon"></i>
+    
+                    </button>
+                    <script>
+                        document.getElementById("searchForm").addEventListener("submit", function(event) {
+                          event.preventDefault();
+                          
+                          var searchTerm = document.getElementById("searchInput").value.toLowerCase();
+                          
+                          if (searchTerm === "ponyo") {
+                            window.location.href = "#Ponyol";
+                          } else if(searchTerm === "harry potter" || searchTerm === "harry") {
+                            window.location.href = "#Harry";
+                          } else if(searchTerm === "La La Land" || searchTerm === "la la land") {
+                            window.location.href = "#Lalande";
+                          } 
+                          else if(searchTerm === "Avatar" || searchTerm === "avatar") {
+                            window.location.href = "#avatar";
+                          }  else if(searchTerm === "Dune" || searchTerm === "dune") {
+                            window.location.href = "#Dune";
+                          } 
+                          else if(searchTerm === "Kung Fu Panda" || searchTerm === "Kung Fu Panda") {
+                            window.location.href = "#Kung Fu Panda";
+                          } 
+                          else if(searchTerm === "Dune2" || searchTerm === "Dune 2") {
+                            window.location.href = "#Dune2";
+                          } 
+                          else if(searchTerm === "Aquaman" || searchTerm === "aquaman") {
+                            window.location.href = "#Aquaman";
+                          } 
+
+
+                            
+                          }
+                        );
+                      </script>
+
+                </form>
+
+            </div>
+            
+            
+        </div>
+    </header>
+
+
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(image/wp5159768.jpeg) no-repeat;"> 
+                    <div class="content">
+                        <h3>Naruto</h3>
+                        <p>
+                            Naruto Uzumaki, un jeune ninja espiègle, cherche à devenir Hokage pour gagner le respect de son village tout en affrontant ses démons intérieurs.</p>
+                        <a href="naruto.html" class="btn">Voir</a>
+                        <a href="source/Naruto The Last - Bande-annonce VF.mp4" class="btn">bande-annonce</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(image/1319774.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>La Revanche des Sith</h3>
+                         <p>La Revanche des Sith est un film américain de science-fiction de type space opera écrit et réalisé par George Lucas, sorti en 2005.</p>
+                        <a href="source/star-wars-pisode-iii-la-revanche-des-sith_und_360p.mp4" class="btn">Voir</a>
+                        <a href="source/Star Wars_ La revanche des sith - Bande Annonce (1).mp4" class="btn">bande-annonce</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(image/john-wick-keanu-reeves-945631.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>john-wick</h3>
+                        <p>John Wick était le plus grand tueur de sa génération. Et c'est ici qu'on bascule dans l'absurdité la plus complète. </p>
+                        <a href="source/John.Wick.MULTi.TRUEFRENCH.720p.HDLight.AC3.5.1 - Copie.mp4" class="btn">Voir</a>
+                        <a href="source/JOHN WICK Bande Annonce VF.mp4" class="btn">bande-annonce</a>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<section class="anime" id="moment">
+    <h1 class="heading">Actus</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                <div class="wrapper">
+                    <div>
+                        <div class="card">
+                            <img src="image/image_bonus_A_0111114225.jpg" alt="" class="imagefilm">
+                            <div class="content">
+                                <h3 style="z-index: 6;" id="Ponyol">Ponyo</h3>
+                                <p>Le petit Sosuke, cinq ans, habite un village construit au sommet d'une falaise qui surplombe la mer intérieure. </p>
+                                <a href="source/Ponyo sur la falaise (2008)-384p.mp4" class="btn">Voir
+                                </a>
+                                <a href="source/Ponyo _ Official Trailer.mp4" class="btn"><i class='bx bx-camera-movie'></i></a>
+
+                            </div>
+                          
+                        </div>
+
+                    </div>
+                </div>
+        
+                </div>
+       
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/la-la-land-wallpaper-preview.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Lalande">La La Land</h3>
+                                    <p>Après Los Angeles en début de soirée, direction donc New York. L'histoire d'amour, adaptée d'un spectacle de Broadway.</p>
+                                    <a href="source/la-la-land_und_360p.mp4" class="btn">Voir
+                                    </a>
+                                    <a href="source/La La Land- Bande-annonce VF.mp4" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/avatar-neytiri-face-aliens-wallpaper-preview.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="avatar">Avatar</h3>
+                                    <p>Sur une planète extraterrestre, un ex-marine humain, Jake Sully, se lie aux Na'vi.</p>
+                                    <a href="https://downstory.xyz/vod/?id=19995" class="btn">Voir
+                                    </a>
+                                    <a href="source/Avatar – Bande Annonce VF – 2009.mp4" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/R.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Dune">Dune</h3>
+                                    <p>Sur la planète désertique Arrakis, le jeune Paul Atreides affronte politique, religion et intrigue dans une lutte pour le pouvoir.</p>
+                                    <a href="source/dune-2021_fre_720p.mp4" class="btn">Voir
+                                    </a>
+                                    <a href="source/Dune - Bande Annonce Officielle (VF) - Denis Villeneuve, Timothée Chalamet.mp4" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/Kung-Fu-Panda-4-2-game4v-1682648788-52.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Kung Fu Panda">Kung Fu Panda 4</h3>
+                                    <p>Dans "Kung Fu Panda 4", Po entraîne une nouvelle génération, affrontant des ennemis redoutables, tout en explorant des leçons de vie profondes et en mélangeant humour et action.</p>
+                                    <a href="source/kung-fu-panda-4-2024_fre_720p.mp4" class="btn">Voir
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=xCVBU07uGf4" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/wallpapersden.com_k-poster-of-dune-2-movie_3840x2160.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Dune2">Dune 2</h3>
+                                    <p>"Dune 2" suit Paul Atreides alors qu'il mène une rébellion contre l'Empereur, confrontant des intrigues politiques et des forces mystiques dans un univers futuriste épique.</p>
+                                    <a href="source/dune-deuxi-me-partie_und_720p.mp4" class="btn">Voir
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=bIMHAsSaRxI" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+            
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/action-8.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Pour d autres Actus me contacter</h3>
+                    <p></p>
+                    <a href="contact.html" class="btn">Contact</a>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+</section>
+
+
+
+<section class="action" id="action">
+    <h1 class="heading">Film</h1>
+    <div class="swiper action-slider">
+        <div class="swiper-wrapper">
+
+
+
+            <div class="swiper-slide">
+            <div class="box">
+                     
+                <div class="wrapper">
+                    <div>
+                        <div class="card">
+                            <img src="image/111062621.webp" alt="" class="imagefilm">
+                            <div class="content">
+                                <h3 style="z-index: 6;" id="Harry" >Harry Potter à l'école des sorciers</h3>
+                                <p>Orphelin, Harry Potter a été élevé sans amour par son oncle et sa tante devant leur exécrable fils, Dudley.</p>
+                                <a href="source/harry-potter-1-a-l-ecole-des-sorciers_eng_360p.mp4" class="btn">Voir</a>
+                                <a href="source/Harry Potter à l'École des Sorciers - Bande Annonce Officielle (VF) - Daniel Radcliffe.mp4" class="btn"><i class='bx bx-camera-movie'></i></a>
+
+                            </div>
+                          
+                        </div>
+
+                    </div>
+                </div>
+              
+                    
+                 
+
+             </div>
+       
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/934762.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Aquaman">Aquaman</h3>
+                                    <p>Arthur Curry, moitié humain moitié Atlante, doit réclamer son trône sous-marin contre son demi-frère Orm pour éviter une guerre entre les océans et la surface.</p>
+                                    <a href="source/aquaman-and-the-lost-kingdom-2023_fre_720p.mp4" class="btn">Voir
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=WDkg3h8PCVU" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/tris-four-divergent-wallpaper.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Divergente">Divergente</h3>
+                                    <p>Dans un monde divisé en factions selon les aptitudes, Tris Prior découvre qu'elle est divergente, menaçant l'ordre établi, elle lutte contre un gouvernement corrompu pour sauver la société et ceux qu'elle aime.</p>
+                                    <a href="source/divergente-2014-_eng_720p.mp4" class="btn">Vo
+                                    </a> <a href="source/divergente-2014-_fre_720p.mp4" class="btn">VF
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=5Ox8GEL7vr8" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/jennifer-lawrence-in-hunger-games-3840x2160.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Hunger">The Hunger Games </h3>
+                                    <p>Une dystopie où des adolescents combattent à mort pour divertir les masses. Katniss défie le système, inspire la rébellion. Triomphe de l'espoir sur l'oppression.</p>
+                                    <a href="source/the.hunger.games.the.ballad.of.songbirds.and.snakes.2023.vfq.720p.webrip.h264_fre_720p.mp4" class="btn">Voir
+                                    
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=mfmrPu43DF8" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/1664188b8d14c0b285284573533.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Pacific">Pacific Rim</h3>
+                                    <p>Dans un futur où des monstres géants attaquent la Terre, des pilotes de robots géants, les Jaegers, se battent pour sauver l'humanité en affrontant les Kaijus dans des combats épiques.</p>
+                                    <a href="source/pacific-rim_fre_720p.mp4" class="btn">Voir
+                                    
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=5guMumPFBag" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/tomb-raider-2018-movie-poster.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Raider">Tomb Raider </h3>
+                                    <p>L'aventurière intrépide Lara Croft explore des tombeaux, combat des ennemis et découvre des secrets anciens dans une quête de survie et de vérité.</p>
+                                    <a href="source/tomb-raider-2018-multi-1080p-hdlight-x264_eng_720p.mp4" class="btn">VO
+                                    </a>
+                                    <a href="source/tomb-raider-2018-multi-1080p-hdlight-x264_fre_720p.mp4" class="btn">VF
+                                    
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=8ndhidEmUbI&pp=ygUTdG9tYiByYWlkZXIgdHJhaWxlcg%3D%3D" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div> <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/wallpapersden.com_demon-slayer-tanjirou-kamado_3840x2400.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Raider">Demon slayer </h3>
+                                    <p>"Demon Slayer" est un manga et un anime où Tanjiro, un chasseur de démons, cherche à venger sa famille décimée par des démons, tout en protégeant sa sœur Nezuko, transformée en démon.</p>
+                                    <a href="https://vidmoly.to/embed-couznlco1429.html
+                                    " class="btn">Voir
+                                    </a>
+                                 
+                                    <a href="https://www.facebook.com/jvcom/videos/demon-slayer-le-film-trailer/2738454919710631/" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-8.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Pour d autres films me contacter</h3>
+                        <p></p>
+                        <a href="contact.html" class="btn">Contact</a>
+                    </div>
+                </div>
+
+
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+<section class="child" id="child">
+    <h1 class="heading">series</h1>
+    <div class="swiper child-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/monkey-d-luffy-one-piece-4k-ln.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="Onepiece">One piece</h3>
+                                    <p>"One Piece" suit l'aventure de Monkey D. Luffy et son équipage à la recherche du trésor légendaire, le One Piece, sur Grand Line, affrontant des pirates et des gouvernements.</p>
+                                    <a href="one piece.html" class="btn">Voir
+                                    </a>                                      
+                                    <a href="https://www.youtube.com/watch?v=MCb13lbVGE0&pp=ygUYb25lIHDDrmVjZSB0cmFpbGVyIGFuaW1l" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                     
+                    <div class="wrapper">
+                        <div>
+                            <div class="card">
+                                <img src="image/thumb-1920-1134110.jpg" alt="" class="imagefilm">
+                                <div class="content">
+                                    <h3 style="z-index: 6;" id="jujutsu kaizen">jujutsu kaizen</h3>
+                                    <p>"Jujutsu Kaisen" suit Yuji Itadori, un lycéen qui devient un exorciste après avoir ingéré un doigt maudit, affrontant des malédictions pour sauver l'humanité.</p>
+                                    <a href="jujutsu kaisen.html" class="btn">Voir
+                                    </a>                                      
+                                    <a href="https://www.youtube.com/watch?v=UPRqnFnnrr8" class="btn"><i class='bx bx-camera-movie'></i></a>
+    
+                                </div>
+                              
+                            </div>
+    
+                        </div>
+                    </div>
+            
+                    </div>
+            </div>
+
+
+
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-1.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3></h3>
+                    <p></p>
+                    <a href="#" class="btn">Voir</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <section class="child" id="horreur">
+        <h1 class="heading">horreur</h1>
+        <div class="swiper child-slider">
+            <div class="swiper-wrapper">
+
+
+
+                <div class="swiper-slide">
+                    <div class="box">
+                         
+                        <div class="wrapper">
+                            <div>
+                                <div class="card">
+                                    <img src="image/brad-pitt-world-war-z-movie-wallpaper.jpg" alt="" class="imagefilm">
+                                    <div class="content">
+                                        <h3 style="z-index: 6;" id="World War Z">World War Z </h3>
+                                        <p>Un ancien enquêteur de l'ONU se lance dans une course mondiale contre des hordes de zombies rapides pour trouver un remède. Action intense, suspense mondial.</p>
+                                        <a href="source/world-war-z-unrated-cut-2013_und_720p.mp4" class="btn">Voir
+                                        </a>                                      
+                                        <a href="https://www.youtube.com/watch?v=Md6Dvxdr0AQ&pp=ygUTd29ybGQgd2FyIHogdHJhaWxlcg%3D%3D" class="btn"><i class='bx bx-camera-movie'></i></a>
+        
+                                    </div>
+                                  
+                                </div>
+        
+                            </div>
+                        </div>
+                
+                        </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/child-1.jpg) no-repeat"></div>
+                    <div class="content">
+                        <h3></h3>
+                        <p></p>
+                        <a href="#" class="btn">Voir</a>
+                    </div>
+                </div>
+    
+              
+</section>
+
+
+
+
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>A propos</h6>
+          <h6 style="font-size: smaller;" class="text-justify"><i>M streaming</i> est un site pour regarder vos series films anime.. favoris ! Developper par Milouche ce site est privé et pas ouvert au public.</h6>
+        </div>
+
+    
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="acceuilres">
+                <li>
+                    <a href="https://github.com/Guillaumeletug"><i class='bx bxl-github'></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/milouche.exe/"><i class='bx bxl-instagram' ></i></a>
+                </li>
+                <li>
+                    <a href="https://vt.tiktok.com/ZGJtaVtpw/"><i class='bx bxl-tiktok' ></i></a>
+                </li>
+                
+               
+
+            </div>  
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright container">
+        <a href="#" class="logo"><span>M</span> Streaming</a>
+
+            
+        <p>&#169; Milouche</p>
+    </div>
+</footer>
+<button class="contactbtn"  >
+    <a class="contactbtnn" href="contact.html" style="text-decoration: none">Contact</a>
+    </button>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script>  <script src="script.js" defer data-deferred="1"></script> </body>
+</html>

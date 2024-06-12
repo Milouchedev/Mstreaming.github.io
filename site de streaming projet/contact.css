@@ -1,0 +1,238 @@
+
+&:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    opacity: .6; 
+  }
+
+
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    transition: all .4s ease;
+   
+}
+
+
+
+  
+
+  .social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10%;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  
+
+  
+  @media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+    .social-media-list li {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+h1{
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   
+   color: #ffffff;
+   text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+
+
+.card{
+  height: 600px;
+  width: 400px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(20, 20 , 20, 0.7);
+  border-radius: 8px;
+  box-shadow: 00 0 25px rgb(36, 36, 36);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+
+.inputcontact {
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+  border-bottom: 2px solid  rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputcontact label {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  left: 0%;
+  font-size: 17px;
+  pointer-events: none;
+  transition: 0.4s;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.inputcontact textarea,
+.inputcontact input{
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputcontact textarea:focus ~ label,
+.inputcontact textarea:valid ~ label,
+.inputcontact input:focus ~ label,
+.inputcontact input:valid ~ label,
+.inputcontact input:focus ~ label,
+.inputcontact textarea:focus ~ label {
+  top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputcontact textarea {
+  padding: 10px 0;
+  resize: none;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+  
